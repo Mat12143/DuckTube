@@ -1,18 +1,22 @@
+# DuckTube simple YT GUI Downloader 
+# By Mat12143 and JackSP_
+
+# Import modules
 import pygame, json
 from script.avvio_app import primo_step
 import webbrowser
 
 pygame.init()
-
 pygame.font.init()
-
 pygame.mixer.init()
 
+# Pygame screen settings
 screen = pygame.display.set_mode((960, 540), 0,0)
 pygame.display.set_caption("DuckTube - HomePage")
 
 errore_file = False
 
+# Controllo file
 try:
     home = pygame.image.load("./.data/img/home.png")
     crediti_page = pygame.image.load("./.data/img/credits.png")
@@ -24,7 +28,6 @@ except Exception as e:
     print("Errore! " + str(e))
     errore_file = True
 
-
 mainLoop = True
 crediti = False
 easter = 0
@@ -32,8 +35,7 @@ easter = 0
 if errore_file == False:
     
     while mainLoop:
-
-
+        # Mostro la home
         screen.blit(home, (0,0))
 
         if crediti:

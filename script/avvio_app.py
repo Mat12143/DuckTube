@@ -367,7 +367,7 @@ def scarica(link, formato):
                     titolo_finito += " "
 
             try:
-                video.download(path_to_download_folder, str(titolo_finito))
+                video.download(path_to_download_folder, str(titolo_finito) + '.mp4')
             except Exception as e:
                 errore_testo = e
                 errori_sistema = True
