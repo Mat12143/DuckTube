@@ -2,6 +2,6 @@
 A simple YouTube Video GUI Downloader made with Python
 
 ## In action...
-![First](https://github.com/Mat12143/DuckTube/blob/32154a5e388783df88e6835d14b1ccc80d1e8bad/first.png)
-![Second](https://github.com/Mat12143/DuckTube/blob/32154a5e388783df88e6835d14b1ccc80d1e8bad/second.png)
-![Third](https://github.com/Mat12143/DuckTube/blob/32154a5e388783df88e6835d14b1ccc80d1e8bad/third.png)
+![First](https://github.com/Mat12143/DuckTube/blob/a43f94e9448693c627bd8c463fb08602b9f80354/first.png)
+![Second](https://github.com/Mat12143/DuckTube/blob/a43f94e9448693c627bd8c463fb08602b9f80354/second.png)
+![Third](https://github.com/Mat12143/DuckTube/blob/a43f94e9448693c627bd8c463fb08602b9f80354/third.png)
